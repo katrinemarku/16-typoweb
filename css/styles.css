@@ -63,7 +63,7 @@ main p {
   border: solid #cc7ab9 2px;
   border-radius: 30px;
   padding: 0px;
-  margin: 0px 30px;
+  margin: 20px 30px 52px;
 }
 
 .quote-container p{
@@ -75,13 +75,31 @@ main p {
   margin-bottom: 0px;
 }
 
-.font-name p{
+.font-name p {
   color: #ffff;
   font-size: 9px;
   text-align: right;
   padding-right: 30px;
   margin-bottom: 10px;
   margin-top: 0px;
+}
+
+article h1 {
+  font-size: 16px;
+  text-align: right;
+  margin-right: 52px;
+  margin-bottom: 5px
+}
+
+article hr {
+  margin-left: 176px;
+  margin-right: 52px;
+  margin-top: 0px;
+}
+
+article img {
+  max-width: 287px;
+  margin-left: 43px;
 }
 
 
