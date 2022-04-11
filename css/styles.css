@@ -34,8 +34,57 @@ hr {
   font-weight: lighter;
   font-size: 14px;
   padding: 0px 35px;
-
  }
+
+ main h1 {
+  color: #ffff;
+  font-size: 16px;
+  text-align: left;
+  margin-left: 27px;
+  padding-top: 15px;
+}
+
+ main hr {
+  margin-left: 24px;
+  margin-right: 206px;
+  border-color: #ffff;
+}
+
+main p {
+  color: #ffff;
+  font-family:'Adobe Jenson Pro';
+  text-align: justify;
+  padding-left: 53px;
+  padding-right: 51px;
+  font-size: 14px;
+}
+
+.quote-container {
+  border: solid #cc7ab9 2px;
+  border-radius: 30px;
+  padding: 0px;
+  margin: 0px 30px;
+}
+
+.quote-container p{
+  color: #cc7ab9;
+  font-size: 18px;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 5px;
+  margin-bottom: 0px;
+}
+
+.font-name p{
+  color: #ffff;
+  font-size: 9px;
+  text-align: right;
+  padding-right: 30px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+
 
 
 
