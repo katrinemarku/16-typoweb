@@ -24,6 +24,19 @@ h1 {
   margin-top: 0px;
 }
 
+header h1:hover{
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #ed0cc0,
+    0 0 82px #ed0cc0,
+    0 0 92px #ed0cc0,
+    0 0 102px #ed0cc0,
+    0 0 151px #ed0cc0;
+  }
+
 hr {
   margin: 0px 120px 26px;
   border-color: black;
@@ -61,14 +74,16 @@ main p {
 
 .quote-container {
   border: solid #cc7ab9 2px;
+  background-color: #000;
   border-radius: 30px;
   padding: 0px;
   margin: 20px 30px 52px;
 
 }
 
-.quote-container p {
+.quote-container h3 {
   color: #cc7ab9;
+  font-family: 'Adobe Jenson Pro';
   font-size: 18px;
   text-align: left;
   padding-left: 10px;
@@ -76,7 +91,7 @@ main p {
   margin-bottom: 0px;
 }
 
-.font-name p {
+.quote-container p{
   color: #ffff;
   font-size: 9px;
   text-align: right;
@@ -137,13 +152,22 @@ input {
   height: 169px;
   margin-bottom: 77px;
   background-color: #000;
+  color: #fff;
+  font-family: 'Adobe Jenson Pro';
+  padding: 0px;
+  user-select: text;
 }
 
-footer h1{
+input :hover{
+  cursor: text;
+}
+
+footer h2{
   color: #ffff;
   font-size: 16px;
   text-align: left;
   margin-left: 43px;
+  font-family: 'Steelplate Textura';
 }
 
 
@@ -152,5 +176,39 @@ footer a {
   font-size: 11.5px;
 }
 
+footer hr{ 
+  margin: 65px 113px 30px;
+  border-color: #ffff;
+}
 
+footer h1 {
+  font-family: 'Steelplate Textura';
+  font-size: 40px;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 0px;
+  color:#cc7ab9;
+  padding: 0px;
+}
+
+footer h1:hover{
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #ed0cc0,
+    0 0 82px #ed0cc0,
+    0 0 92px #ed0cc0,
+    0 0 102px #ed0cc0,
+    0 0 151px #ed0cc0;
+  }
+
+  footer p{
+    color: white;
+    font-family: 'Adobe Jenson Pro';
+    font-size: 15px;
+    text-align: center;
+  }
 
