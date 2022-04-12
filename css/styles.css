@@ -1,3 +1,32 @@
+@font-face {
+  font-family: 'Adobe Jenson Pro';
+  font-weight: 'Italic Caption';
+  src: url('../fonts/AJensonPro-ItCapt.woff');
+}
+
+@font-face {
+  font-family: 'Adobe Jenson Pro';
+  font-weight: 'Light Subhead';
+  src: url('../fonts/AJensonPro-LtSubh.woff');
+}
+
+@font-face {
+  font-family: 'Adobe Jenson Pro';
+  font-weight: 'Semibold Caption';
+  src: url('../fonts/AJensonPro-SemiboldCapt.woff');
+}
+
+@font-face {
+  font-family: 'Adobe Jenson Pro';
+  font-weight: 'Semibold Display';
+  src: url('../fonts/AJensonPro-SemiboldDisp.woff');
+}
+
+@font-face {
+  font-family: 'Steelplate Textura';
+  src: url('../fonts/SteelplateTextura.woff');
+}
+
 html {
   scroll-behavior: smooth;
   background-color: black;
@@ -17,7 +46,6 @@ header {
 h1 {
   font-family: 'Steelplate Textura';
   font-size: 40px;
-  font-weight: lighter;
   text-align: center;
   margin-bottom: 15px;
   padding-top: 43px;
@@ -44,7 +72,7 @@ hr {
 
  a {
   font-family: 'Adobe Jenson Pro';
-  font-weight: lighter;
+  font-weight: 'Light Subhead';
   font-size: 14px;
   padding: 0px 35px;
  }
@@ -66,6 +94,7 @@ hr {
 main p {
   color: #ffff;
   font-family:'Adobe Jenson Pro';
+  font-weight: 'Italic Caption';
   text-align: justify;
   padding-left: 53px;
   padding-right: 51px;
@@ -77,17 +106,15 @@ main p {
   background-color: #000;
   border-radius: 30px;
   padding: 0px;
-  margin: 20px 30px 52px;
-
+  margin: 20px 25px 52px;
 }
 
 .quote-container h3 {
   color: #cc7ab9;
   font-family: 'Adobe Jenson Pro';
-  font-size: 18px;
-  text-align: left;
-  padding-left: 10px;
-  padding-right: 5px;
+  font-weight: 'Semibold Caption';
+  font-size: 20px;
+  padding-left: 9px;
   margin-bottom: 0px;
 }
 
@@ -95,9 +122,10 @@ main p {
   color: #ffff;
   font-size: 9px;
   text-align: right;
-  padding-right: 30px;
+  padding-right: 23px;
   margin-bottom: 10px;
   margin-top: 0px;
+  padding-top: 0px;
   background-color: none;
 }
 
@@ -123,18 +151,14 @@ article img {
 .content-title h1 {
   text-align: left;
   margin-left: 43px;
+  padding-bottom: 0px;
 }
 
 .content-title hr {
   margin-right: 193px;
   margin-left: 43px;
   margin-top: 0px;
-}
-
-.plus-sign a {
-  display: flex;
-  justify-items:flex-end;
-  color: #ffff;
+  padding-bottom: 0px;
 }
 
 div {
@@ -154,6 +178,7 @@ input {
   background-color: #000;
   color: #fff;
   font-family: 'Adobe Jenson Pro';
+  font-weight:'Italic Caption';
   padding: 0px;
   user-select: text;
 }
@@ -210,5 +235,70 @@ footer h1:hover{
     font-family: 'Adobe Jenson Pro';
     font-size: 15px;
     text-align: center;
+    font-weight: 'Light Subhead';
   }
 
+  ul        {
+    margin-bottom: 0;
+  }
+  .accordion  {
+    background: #000;
+    border-radius: 5px;
+    padding: 0 30px 80PX;
+  }
+
+  .question {
+    border-bottom: 1px solid #EEE;
+    padding: 20px 20px 10px;
+    cursor: pointer;
+    position: relative;
+    margin-right: 170px;
+  }
+
+  div .question {
+    background-color: #000;
+    padding-left: 0px;
+  }
+
+  .question h2  {
+    font-size: 20px;
+    margin: 0;
+    color: #fff;
+    font-family: 'Steelplate Textura'
+  }
+
+  .question .glyphicon {
+    position: absolute;
+    right: 20px;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+  }
+
+  .answer   {
+    max-height: 0;
+    overflow: scroll;
+    transition: .8s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+    background-color: #000;
+  }
+
+  .answer img {
+    padding : 15px 0 0;
+    margin-left: 0px;
+  }
+
+  .accordion li.open .question .glyphicon {
+    transform: rotate(180deg);
+  }
+
+  .accordion li.open .answer  {
+    max-height: 150px;
+  }
+
+  .list-unstyled {
+    margin-top: 0px;
+    padding-left: 20px;
+  }
