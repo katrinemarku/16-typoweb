@@ -1,32 +1,36 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Typoweb</title>
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Typoweb</title>
+</head>
+
+<body>
   <header>
     <h1>TypoWeb</h1>
     <hr>
-    <a>Adobe Jenson Pro † Tester la fonte † Contact † Copyright</a>
+    <a href="#font">Adobe Jenson Pro †</a> 
+    <a href="#tester">Tester la fonte †</a>
+    <a href="#contact"> Contact †</a>
+    <a href="#copyright">Copyright</a>
   </header>
   <main>
-    <h1>Adobe Jenson Pro</h1>
+    <h1 id="font">Adobe Jenson Pro</h1>
     <hr>
-      <p>
-        Police de caractères à empattement à l' ancienne dessinée pour Adobe 
-        Systems par son concepteur de caractères en chef, Robert Slimbach . 
-        Ses styles romains sont basés sur une face de texte découpée par Nicolas 
-        Jenson à Venise vers 1470, et ses italiques sont basées sur celles créées 
-        par Ludovico Vicentino degli Arrighi cinquante ans plus tard.
-        </p>
-        <p>
-        Jenson est un design organique, avec une faible hauteur d'x . Elle est 
-        considérée comme une police de caractères très lisible et est donc souvent 
-        utilisée dans la conception de livres pour le corps du texte.
-      </p>
+    <p>
+      Police de caractères à empattement à l' ancienne dessinée pour Adobe
+      Systems par son concepteur de caractères en chef, Robert Slimbach .
+      Ses styles romains sont basés sur une face de texte découpée par Nicolas
+      Jenson à Venise vers 1470, et ses italiques sont basées sur celles créées
+      par Ludovico Vicentino degli Arrighi cinquante ans plus tard.
+    </p>
+    <p>
+      Jenson est un design organique, avec une faible hauteur d'x . Elle est
+      considérée comme une police de caractères très lisible et est donc souvent
+      utilisée dans la conception de livres pour le corps du texte.
+    </p>
     <div class="quote-container">
       <h3>
         « There is no way to make this story interesting ».
@@ -38,68 +42,59 @@
     <article>
       <h1>32 graisses</h1>
       <hr>
-        <img 
-          src="img/font-demonstration-a.png"
-          alt="Adobe Jenson Pro font demonstration with the letter A"
-          >
-          <div class="container">
-            <div class="accordion">
-              <ul class="list-unstyled">
-                <li>
-                  <div class="question">
-                    <h2>Ligatures</h2>
-                    <span class="glyphicon glyphicon-chevron-down">+</span>
-                  </div>
-                  <div class="answer">
-                    <img 
-                      src="img/glyphes.png"
-                      alt="Ligatures"
-                    >
-                  </div>
-                </li>
-                      <li>
-                  <div class="question">
-                    <h2>Symboles</h2>
-                    <span class="glyphicon glyphicon-chevron-down">+</span>
-                  </div>
-                  <div class="answer">
-                    <img 
-                      src="img/symboles.png"
-                      alt="Symboles"
-                    >
-                  </div>
-                </li>
-                      <li>
-                  <div class="question">
-                    <h2>Chiffres</h2>
-                    <span class="glyphicon glyphicon-chevron-down">+</span>
-                  </div>
-                  <div class="answer">
-                    <img 
-                      src="img/chiffres.png"
-                      alt="Chiffres"
-                    >
-                  </div>
-                </li>
-              </ul>
-  </div> 
-</div>
-</main>
+      <img src="img/font-demonstration-a.png" alt="Adobe Jenson Pro font demonstration with the letter A">
+      <div class="container">
+        <div class="accordion">
+          <ul class="list-unstyled">
+            <li>
+              <div class="question">
+                <h2>Ligatures</h2>
+                <span class="glyphicon glyphicon-chevron-down">+</span>
+              </div>
+              <div class="answer">
+                <img src="img/glyphes.png" alt="Ligatures">
+              </div>
+            </li>
+            <li>
+              <div class="question">
+                <h2>Symboles</h2>
+                <span class="glyphicon glyphicon-chevron-down">+</span>
+              </div>
+              <div class="answer">
+                <img src="img/symboles.png" alt="Symboles">
+              </div>
+            </li>
+            <li>
+              <div class="question">
+                <h2>Chiffres</h2>
+                <span class="glyphicon glyphicon-chevron-down">+</span>
+              </div>
+              <div class="answer">
+                <img src="img/chiffres.png" alt="Chiffres">
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </main>
   <div>
-    <h1>Tester!</h1>
+    <h1 id="tester">Tester!</h1>
     <form>
-      <input type="text" id="" name="try-font"><br> 
+      <input type="text" id="" name="try-font"><br>
     </form>
   </div>
   <footer>
-      <h2>Contact</h2>
-    <a>info@typoweb.ch @typoweb_ig +41 66 666 66 66</a>
+    <h2 id="contact">Contact</h2>
+    <a href="https://www.google.com/intl/fr/gmail/about/" target="_blank">
+      info@typoweb.ch</a> 
+    <a href="https://www.instagram.com" target="_blank">@typoweb_ig</a> 
+    <a href="tel:0041666666666">+41 66 666 66 66</a>
     <hr>
     <h1>Katrine Marku</h1>
-      <p>Typoweb©2022</p>
-      <br>
-      <p>Adobe Jenson Pro</p>
+    <p id="copyright">Typoweb©2022</p>
+    <br>
+    <p>Adobe Jenson Pro</p>
   </footer>
   <script type="text/javascript" src="accordion.js"></script>
-  </body>
+</body>
 </html>
