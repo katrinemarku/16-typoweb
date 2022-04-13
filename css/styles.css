@@ -90,7 +90,7 @@ main p {
   font-family: 'Adobe Jenson Pro Italic Caption';
   text-align: justify;
   padding-left: 53px;
-  padding-right: 51px;
+  padding-right: 46px;
   font-size: 14px;
   margin-top: 20px;
   margin-bottom: 23px;
@@ -162,7 +162,6 @@ div {
 
 form {
   background-color: #0000;
-  color: white;
   text-align: center;
 }
 
@@ -172,7 +171,8 @@ input {
   margin-bottom: 77px;
   background-color: #000;
   color: #fff;
-  font-family: 'Adobe Jenson Pro Italic Caption';
+  font-family: 'Adobe Jenson Pro Light Subhead';
+  font-size: 20px;
   padding: 0px;
   user-select: text;
 }
