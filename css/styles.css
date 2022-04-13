@@ -54,17 +54,21 @@ h1 {
     0 0 82px #ed0cc0, 0 0 92px #ed0cc0, 0 0 102px #ed0cc0, 0 0 151px #ed0cc0;
 }
 
-header hr {
-  margin: 0px 119px 26px 114px;
-  border-color: black;
-  border-width: 0.5px;
-}
-
 header a {
   color: #000;
   font-size: 14px;
   text-decoration: none;
   font-family: 'Adobe Jenson Pro Light Subhead';
+}
+
+.header-links{
+  margin-left: 43px;
+}
+
+header hr {
+  margin: 0px 119px 26px 114px;
+  border-color: black;
+  border-width: 0.5px;
 }
 
 main h1 {
